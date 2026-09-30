@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Model checkpoints / weights
+backend/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Dataset
+data/
+
+# Node / frontend build
+node_modules/
+frontend/dist/
+
+# Environment & secrets
+.env
+.env.*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
